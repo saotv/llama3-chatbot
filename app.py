@@ -19,6 +19,8 @@ api_model_name = st.sidebar.text_input("模型(可选)", value="rohan/Meta-Llama
 # 显示信息和链接
 with st.sidebar:
     st.markdown("[llama3 API Key获取方式](https://nbid.bid/blog)")
+    
+    st.markdown("[Github](https://github.com/saotv/llama3-chatbot)")
 
 # 初始化聊天历史和内存
 msgs = StreamlitChatMessageHistory()
